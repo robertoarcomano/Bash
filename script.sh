@@ -40,3 +40,14 @@ for i in $(seq 1 ${#array[@]}); do
   echo -n "[$j]:"${array[$j]} " "
 done
 echo
+echo
+
+# 5. FUNCTION
+echo "FUNCTION: func()"
+echo "ARGUMENTS: ls"
+func() {
+  local retval=$($1)
+  echo $retval
+}
+echo "OUTPUT:" $(func ls)
+echo
