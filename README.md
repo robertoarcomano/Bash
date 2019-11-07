@@ -9,7 +9,6 @@ done
 ```
 #### Output
 ```
-LOOP
 row: 1
 row: 2
 row: 3
@@ -33,7 +32,6 @@ fi
 ```
 #### Output
 ```
-IF
 1 = 1
 ```
 
